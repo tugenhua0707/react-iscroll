@@ -1,0 +1,30 @@
+body {
+  overflow: hidden;
+}
+.listOutsite {
+  position: relative;
+}
+.listInside {
+  margin: 0;
+  padding: 0;
+  min-height: 150%;
+}
+.listInside li {
+  height: 80px;
+  width: 80%;
+  vertical-align: middle;
+  line-height: 80px;
+  font-size: 18px;
+  border: 1px solid lightsteelblue;
+  overflow: hidden;
+  background-color: blanchedalmond;
+}
+.pullDown,.pullUp {
+  margin:0px;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  line-height: 40px;
+}
